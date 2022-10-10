@@ -44,6 +44,16 @@ ul {
     padding-left: 20px;
 }
 
+li:hover::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 5px;
+    background-color: #ffc32a;
+    border-radius: 1000px;
+}
+
 .img-menu-pcoes {
     padding-left: 30px;
     display: flex;
@@ -65,4 +75,46 @@ ul {
 
 #img-login {
     padding: 5px;
+}
+
+main > #section-tela-inicial{
+    background-image: url(./img/herhhhhhhhhhhhhhhhh.png);
+    background-repeat: no-repeat;
+}
+
+#section-tela-inicial > h1 {
+    margin-top: 9%;
+    margin-left: 7.6%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#section-tela-inicial > h1 > span {
+    color: #ffc32a;
+}
+
+#section-tela-inicial > p {
+    margin-left: 7.6%;
+    margin-top: 2%;
+}
+
+#section-tela-inicial > div {
+    background-color: #ffc32a;
+    border-radius: 100px;
+    width: 13%;
+    margin-left: 7.5%;
+    margin-top: 2%;
+    padding: 10px;
+}
+
+#section-tela-inicial > div > p {
+    padding-left: 9%;
+}
+
+#p-id-ponto {
+    margin-top: 1000px !important;
+}
+
+#section-segunda-tela {
+    background-color: #FFF9EA;
 }
