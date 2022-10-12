@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
     overflow-x: hidden;
 }
 
@@ -78,7 +78,7 @@ li:hover::after {
 }
 
 main > #section-tela-inicial{
-    background-image: url(./img/herhhhhhhhhhhhhhhhh.png);
+    background-image: url(../img/herhhhhhhhhhhhhhhhh.png);
     background-repeat: no-repeat;
 }
 
@@ -112,9 +112,46 @@ main > #section-tela-inicial{
 }
 
 #p-id-ponto {
-    margin-top: 1000px !important;
+    margin-top: 190px !important;
 }
 
 #section-segunda-tela {
     background-color: #FFF9EA;
+}
+
+#section-como-funciona {
+    background-color: white;
+}
+#section-como-funciona > p{
+    display: flex;
+    justify-content: center;
+}
+
+#p-informacoes {
+    color: #ffc32a;
+    font-size: 20px;
+
+    margin-top: 10%;
+
+}
+
+#p-descricao {
+    color: #8b8787;
+
+    margin-top: 40px;
+}
+
+#section-como-funciona > h1 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 4px;
+}
+
+#section-como-funciona > div {
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+
 }
