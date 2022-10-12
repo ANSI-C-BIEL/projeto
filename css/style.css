@@ -155,3 +155,27 @@ main > #section-tela-inicial{
     justify-content: space-evenly;
 
 }
+
+#div-encomenda > img{
+    margin-left: 50px;
+}
+
+.p-informacoes {
+    color: #8b8787;
+}
+
+#div-servicos > div > h2 {
+    text-align:center
+
+}
+
+#div-servicos > div > p {
+    text-align:center
+
+}
+
+
+
+#div-qualidade-comida > img{
+    margin-left: 39px;
+}
